@@ -32,6 +32,7 @@ FIND_PATH( SUITESPARSE_LIBRARY_DIR
           NAMES libcholmod.so libcholmod.a
           PATHS /usr/lib 
                 /usr/lib64
+                /usr/lib/aarch64-linux-gnu
                 /usr/lib/x86_64-linux-gnu
                 /usr/lib/i386-linux-gnu
                 /usr/local/lib )
